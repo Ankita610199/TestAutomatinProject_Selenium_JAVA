@@ -63,7 +63,7 @@ public class SeleniumTest {
         {
            // System.setProperty("webdriver.chrome.driver", "C:\\webdrivers\\chromedrivernew.exe");
             System.setProperty("webdriver.chrome.driver", "C:\Program Files\Google\Chrome\Application\\chromedriver.exe");
-            C:\Program Files\Google\Chrome\Application
+           // C:\Program Files\Google\Chrome\Application
             driver = new ChromeDriver();
             driver.manage().window().maximize();
         }
