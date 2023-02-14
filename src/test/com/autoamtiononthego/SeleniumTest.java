@@ -61,7 +61,9 @@ public class SeleniumTest {
         }
         else if (browser.equalsIgnoreCase("localchrome"))
         {
-            System.setProperty("webdriver.chrome.driver", "C:\\webdrivers\\chromedrivernew.exe");
+           // System.setProperty("webdriver.chrome.driver", "C:\\webdrivers\\chromedrivernew.exe");
+            System.setProperty("webdriver.chrome.driver", "C:\Program Files\Google\Chrome\Application\\chromedriver.exe");
+            C:\Program Files\Google\Chrome\Application
             driver = new ChromeDriver();
             driver.manage().window().maximize();
         }
